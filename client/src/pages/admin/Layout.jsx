@@ -13,7 +13,7 @@ const Layout = () => {
     setToken(null);
     navigate("/");
   };
- 
+
   return (
     <>
       <div
@@ -23,7 +23,7 @@ const Layout = () => {
         <img
           src={assets.logo2}
           alt="logo"
-          className="w-32 sm:w-40 cursor-pointer"
+          className="w-32 sm:w-40 rounded-2xl cursor-pointer"
           onClick={() => navigate("/")}
         />
         <button
