@@ -21,7 +21,7 @@ const Layout = () => {
       border-b border-gray-200"
       >
         <img
-          src={assets.logo}
+          src={assets.logo2}
           alt="logo"
           className="w-32 sm:w-40 cursor-pointer"
           onClick={() => navigate("/")}
